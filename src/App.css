@@ -1,0 +1,55 @@
+.task-manager{
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+}
+
+.task-head{
+    font-size: 25px;
+    padding: 25px 30px;
+}
+
+.form {
+    padding: 10px 20px;
+}
+
+input {
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid grey;
+    width: 400px;
+    background-color: rgb(242, 242, 242);
+    margin-bottom: 20px;
+}
+
+.btn {
+    color: white;
+    font-size: 15px;
+    background-color: blueviolet;
+    padding: 5px 15px;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid blueviolet;
+}
+
+.tasks {
+    margin-top: 20px;
+}
+
+.task {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.task-title {
+    width: 80%;
+}
